@@ -1,1 +1,1 @@
-# DAE-for-multiple-DOA-estimation
+# DAE-for-multiple-DoA-estimation
