@@ -5,16 +5,16 @@ System requirements: NVIDIA GPU (at least 2GB DDR3 memory), MATLAB 2019b.
 
 Here is a short description of how to generate the training and testing data, train the neural network and evaluate its performance:
 
+TRAINING
 1. DATA_gener_DAE_allSNR.m : generates the training data and saves them to a specified directory.
-
 2. DenoisingAutoencoder_allSNR.m : trains the DAE for each T after loading the data from the directory of step 1. The weights, i.e., net, are saved so that they can be later used for prediction. The trained weights are also provided in the repository.
 
-3.Testing_DATA_gener_ongrid_angles_per_SNR.m : generates the testing data for angles on a discrete grid and intervals specified in [1].
+TESTING
+3.Testing_DATA_gener_ongrid_angles_per_SNR.m : generates the testing data for random angles on a discrete grid (integers) in the intervals specified in [1] (scenario 1).
+4.Testing_DATA_gener_per_SNR.m : generates the testing data for random angles on the continuous domain in the intervals specified in [1] (scenario 2).
+5. .m : evaluates the scheme over the testing set of step 3. Metric: probability of detection with SS-MUSIC resolution equal to 1 degree.
 
-5. evaluation of the scheme over the testing sets:
+6. .m : evaluates the scheme over the testing set of step 4. Metric: root-mean-squared-error (RMSE) with SS-MUSIC resolution equal to 0.1 degree.
 
 
-
-
-
-Cite: [1]. G. K. Papageorgiou and M. Sellathurai, "Fast direction-of-arrival estimation of multiple targets using deep learning and sparse arrays," IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020.
+Cite: [1]. G. K. Papageorgiou and M. Sellathurai, "Fast direction-of-arrival estimation of multiple targets using deep learning and sparse arrays," IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, May 4-8 2020.
