@@ -9,9 +9,9 @@ Here is a short description of how to generate the training and testing data, tr
 
 2. DenoisingAutoencoder_allSNR.m : trains the DAE for each T after loading the data from the directory of step 1. The weights, i.e., net, are saved so that they can be later used for prediction. The trained weights are also provided in the repository.
 
-3. Testing data generator
+3.Testing_DATA_gener_ongrid_angles_per_SNR.m : generates the testing data for angles on a discrete grid and intervals specified in [1].
 
-4. evaluation of the scheme over the testing sets:
+5. evaluation of the scheme over the testing sets:
 
 
 
