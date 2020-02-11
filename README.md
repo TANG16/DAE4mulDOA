@@ -10,6 +10,7 @@ TRAINING
 2. DenoisingAutoencoder_allSNR.m : trains the DAE for each T after loading the data from the directory of step 1. The weights, i.e., net, are saved so that they can be later used for prediction. The trained weights are also provided in the repository.
 
 TESTING
+
 3.Testing_DATA_gener_ongrid_angles_per_SNR.m : generates the testing data for random angles on a discrete grid (integers) in the intervals specified in [1] (scenario 1).
 4.Testing_DATA_gener_per_SNR.m : generates the testing data for random angles on the continuous domain in the intervals specified in [1] (scenario 2).
 5. .m : evaluates the scheme over the testing set of step 3. Metric: probability of detection with SS-MUSIC resolution equal to 1 degree.
