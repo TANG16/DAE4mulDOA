@@ -11,5 +11,7 @@ Here is a short description of how to generate the training and testing data, tr
 4. Testing_DATA_gener_per_SNR.m : generates the testing data for random angles in the intervals specified in [1] (scenario 2 - continuous domain).
 5. DAE_testing_per_SNR_ongrid_probabilities.m : evaluates the scheme over the testing set of step 3. Metric: probability of detection with SS-MUSIC resolution equal to 1 degree.
 6. DAE_testing_per_SNR.m : evaluates the scheme over the testing set of step 4. Metric: root-mean-squared-error (RMSE) with SS-MUSIC resolution equal to 0.1 degree.
+7. plot_Probabilities.m: plot the probability vs the SNR results after running all experiments at step 5.
+8. plot_RMSE_res01.m: plot the RMSE vs the SNR results after running all experiments at step 6.
 
 Cite: [1]. G. K. Papageorgiou and M. Sellathurai, "Fast direction-of-arrival estimation of multiple targets using deep learning and sparse arrays," IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, May 4-8 2020.
