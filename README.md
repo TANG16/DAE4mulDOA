@@ -1,7 +1,5 @@
 # DAE-for-multiple-DoA-estimation
-Author: G. K. Papageorgiou
-
-Date: 08/02/2020
+Author: G. K. Papageorgiou - Date: 08/02/2020
 
 MATLAB repository for the fast DoA estimation of multiple sources/targets using a Denoising Autoencoder (DAE).
 
